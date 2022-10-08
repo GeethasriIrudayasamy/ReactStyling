@@ -34,7 +34,7 @@ const CourseInput = (props) => {
                     value={enteredValue}
                 />
             </div>
-            <Button className={`${!isValid ? "invalid" : ""}`} type="submit">
+            <Button className={`button ${!isValid ? "invalid" : ""}`} type="submit">
                 Add Goal
             </Button>
         </form>
